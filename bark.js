@@ -1,5 +1,7 @@
-console.log("Hello, World!");
-console.log("Welcome to JavaScript programming.");
-console.log("This is a simple example of a JavaScript file.");
-console.log("You can run this code in a web browser or using Node.js.");
-console.log("Have fun learning JavaScript!");   
+let name = "Buddy";
+let age = 5;
+const city = "New York";
+let city = "Los Angeles"; // This will cause an error because city is declared as a constant
+console.log("Name: " + name);
+console.log("Age: " + age);
+console.log("City: " + city);
