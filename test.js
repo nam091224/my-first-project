@@ -8,3 +8,13 @@ console.log("Name: " + name);
 console.log("Age: " + age);
 console.log("City: " + city);
 console.log(greeting);
+
+
+if (age > 3) {
+    let message = "You are an adult dog!";
+    console.log(message);
+}
+else {
+    let message = "You are not an adult dog.";
+    console.log(message);
+} 
